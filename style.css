@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    line-height: 50px;
+    vertical-align: middle;
+    background-color: white;
+    font-size: 14px;
+    /* position: fixed; */
+}
+
+.header-left{
+    width: 50%;
+    display: inline-block;
+}
+
+.header-right{
+    width: 49%;
+    text-align: right;
+    display: inline-block;
+}
+
+.header-left .logo{
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    margin: 0px 10px;
+}
+
+nav{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+nav ul li{
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.btn-blue{
+    background-color: blue;
+    padding: 5px 10px;
+}
+
+.btn-blue a{
+    color: white;
+}
+
