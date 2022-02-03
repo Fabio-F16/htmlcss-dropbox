@@ -58,6 +58,10 @@ body{
     margin-top: 10%;
 }
 
+.text-center{
+    text-align: center;
+}
+
 header{
     line-height: 50px;
     vertical-align: middle;
@@ -90,21 +94,20 @@ nav{
 
 nav ul li{
     display: inline-block;
-    text-decoration: none;
     margin: 10px;
 }
 
-a{
+header a, .btn-blue a{
     text-decoration: none;
     color: black;
 }
 
-a:hover{
+header a:hover{
     text-decoration: underline;
 }
 
 .btn-blue{
-    background-color: blue;
+    background-color: #0c68ff;
     padding: 5px 10px;
 }
 
@@ -127,7 +130,56 @@ a:hover{
     font-size: 13px;
 }
 
-.fas{
-    font-size: 30px;
+.fa-arrow-down{
+    font-size: 40px;
 }
+
+.fatturazione p{
+    display: inline-block;
+    margin-right: 5%;
+}
+
+.col{
+    width: 30%;
+    height: 1000px;
+    border: 1px solid black;
+}
+
+.col-margin{
+    margin: 0px 5%;
+}
+
+.col-head{
+    text-align: center;
+    padding: 5% 0px;
+    border-bottom: 1px solid black;
+}
+
+.col-title, .col-main, .col-link, .col-list{
+    margin-left: 8%;
+}
+
+.col-title h3, .col-title p{
+    margin-bottom: 5%;
+}
+
+.col-main p, .col-link p{
+    margin-top: 10%;
+}
+
+.fa-check{
+    color: #0c68ff;
+}
+
+.col-list li{
+    list-style-type: none;
+    margin-bottom: 10%;
+}
+
+
+
+
+
+
+
 
