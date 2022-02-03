@@ -8,12 +8,62 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+.celarfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.container{
+    margin: auto;
+}
+
+.width-30{
+    width: 30%;
+}
+
+.width-40{
+    width: 40%;
+}
+
+.width-50{
+    width: 50%;
+}
+
+.width-60{
+    width: 60%;
+}
+
+.width-80{
+    width: 80%;
+}
+
+.width-100{
+    width: 100%;
+}
+
+.margin-top-5{
+    margin-top: 5%;
+}
+
+.margin-top-10{
+    margin-top: 10%;
+}
+
 header{
     line-height: 50px;
     vertical-align: middle;
     background-color: white;
     font-size: 14px;
-    /* position: fixed; */
+    position: fixed;
 }
 
 .header-left{
@@ -38,6 +88,12 @@ nav{
     display: inline-block;
 }
 
+nav ul li{
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px;
+}
+
 a{
     text-decoration: none;
     color: black;
@@ -47,12 +103,6 @@ a:hover{
     text-decoration: underline;
 }
 
-nav ul li{
-    display: inline-block;
-    text-decoration: none;
-    margin: 10px;
-}
-
 .btn-blue{
     background-color: blue;
     padding: 5px 10px;
@@ -60,5 +110,24 @@ nav ul li{
 
 .btn-blue a{
     color: white;
+}
+
+.jumbotron{
+    height: 700px;
+    background-color: rgb(180 208 231);
+    padding-top: 10%;
+}
+
+.jumbotron h1{
+    font-size: 50px;
+    word-spacing: 5px;
+}
+
+.jumbotron p{
+    font-size: 13px;
+}
+
+.fas{
+    font-size: 30px;
 }
 
