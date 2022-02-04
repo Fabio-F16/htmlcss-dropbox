@@ -8,7 +8,7 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-.celarfix::after{
+.clearfix::after{
     content: "";
     display: table;
     clear: both;
@@ -68,6 +68,8 @@ header{
     background-color: white;
     font-size: 14px;
     position: fixed;
+    left: 0px;
+    top: 0px;
 }
 
 .header-left{
@@ -142,7 +144,6 @@ header a:hover{
 }
 
 .col{
-    width: 30%;
     height: 1000px;
     border: 1px solid black;
 }
@@ -193,6 +194,35 @@ header a:hover{
     list-style-type: none;
     margin-top: 10%;
 }
+
+.col-large{
+    height: 200px;
+    border: 1px solid black;
+    margin-bottom: 50%;
+}
+
+.col-large-head{
+    text-align: center;
+    padding: 2% 0px;
+    border-bottom: 1px solid black;
+}
+
+.col-large p{
+    margin-top: 15px;
+}
+
+.col-large-main{
+    position:relative;
+}
+
+
+.col-large-main .btn-blue{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+
 
 
 
