@@ -105,20 +105,34 @@ header a, .btn-blue a{
     color: black;
 }
 
-header a:hover{
+a:hover{
     text-decoration: underline;
 }
 
-.btn-blue{
-    background-color: #0c68ff;
-    padding: 5px 10px;
+.btn{
     display: inline-block;
+    padding: 5px 10px;
     text-align: center;
 }
 
 .btn-blue a{
     color: white;
 }
+
+.btn-blue{
+    background-color: #0c68ff;
+
+}
+
+
+
+
+
+
+
+
+
+
 
 .jumbotron{
     height: 700px;
@@ -178,6 +192,10 @@ header a:hover{
     margin-top: 10%;
 }
 
+.col-link .btn a{
+    color: white;
+
+}
 
 .col-link a{
     color: #0c68ff; 
@@ -223,15 +241,6 @@ header a:hover{
     right: 0px;
     top: 0px;
 }
-/* debug */
-
-
-.debug .width-40{
-    height: 300px;
-    background-color: red;
-    margin-bottom: 1000px;
-
-}
 
 .text-area{
     margin: auto;
@@ -241,13 +250,22 @@ header a:hover{
 
 .text-area p{
     margin-top: 10px;
+    margin-bottom: 30px;
     font-size: 0.9rem;
 }
 
-.text-area .btn-blue{
-    background-color: none;
-    color: green;
-    font-size: 0.7rem;
+.text-area .btn{
+    border: 1px solid gray;
+    background-color: white;
+    display: inline;
+    
+}
+
+.text-area .btn a{
+    color: gray;
+    text-decoration: none;
+    font-size: 0.9rem; 
+     
 }
 
 
