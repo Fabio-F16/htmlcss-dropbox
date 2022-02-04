@@ -70,6 +70,7 @@ header{
     position: fixed;
     left: 0px;
     top: 0px;
+    z-index: 3;
 }
 
 .header-left{
@@ -196,9 +197,10 @@ header a:hover{
 }
 
 .col-large{
-    height: 200px;
+    background-color: white;
     border: 1px solid black;
-    margin-bottom: 50%;
+    padding-bottom: 3%;
+    margin-bottom: 10%;
 }
 
 .col-large-head{
@@ -220,6 +222,32 @@ header a:hover{
     position: absolute;
     right: 0px;
     top: 0px;
+}
+/* debug */
+
+
+.debug .width-40{
+    height: 300px;
+    background-color: red;
+    margin-bottom: 1000px;
+
+}
+
+.text-area{
+    margin: auto;
+    padding-top: 30px;
+    
+}
+
+.text-area p{
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+.text-area .btn-blue{
+    background-color: none;
+    color: green;
+    font-size: 0.7rem;
 }
 
 
