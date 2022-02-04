@@ -109,6 +109,8 @@ header a:hover{
 .btn-blue{
     background-color: #0c68ff;
     padding: 5px 10px;
+    display: inline-block;
+    text-align: center;
 }
 
 .btn-blue a{
@@ -145,6 +147,12 @@ header a:hover{
     border: 1px solid black;
 }
 
+.col-body{
+    width: 80%;
+    margin: auto;
+    font-size: 0.9rem;
+}
+
 .col-margin{
     margin: 0px 5%;
 }
@@ -155,25 +163,35 @@ header a:hover{
     border-bottom: 1px solid black;
 }
 
-.col-title, .col-main, .col-link, .col-list{
-    margin-left: 8%;
-}
-
 .col-title h3, .col-title p{
     margin-bottom: 5%;
+}
+
+.col-title p:last-child{
+    font-size: 0.7rem;
+    color: #84909b;
 }
 
 .col-main p, .col-link p{
     margin-top: 10%;
 }
 
-.fa-check{
-    color: #0c68ff;
+
+.col-link a{
+    color: #0c68ff; 
 }
 
+.fa-check{
+    color: #0c68ff;
+    margin-right: 3%;
+}
+
+.col-list{
+    margin-top: 20%;
+}
 .col-list li{
     list-style-type: none;
-    margin-bottom: 10%;
+    margin-top: 10%;
 }
 
 
