@@ -58,6 +58,10 @@ body{
     margin-top: 10%;
 }
 
+.margin-top-20{
+    margin-top: 20%;
+}
+
 .text-center{
     text-align: center;
 }
@@ -123,16 +127,6 @@ a:hover{
     background-color: #0c68ff;
 
 }
-
-
-
-
-
-
-
-
-
-
 
 .jumbotron{
     height: 700px;
@@ -249,7 +243,7 @@ a:hover{
 }
 
 .text-area p{
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 30px;
     font-size: 0.9rem;
 }
