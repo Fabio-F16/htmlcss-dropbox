@@ -125,7 +125,10 @@ a:hover{
 
 .btn-blue{
     background-color: #0c68ff;
+}
 
+.header-right .btn{
+    display: inline;
 }
 
 .jumbotron{
@@ -186,9 +189,9 @@ a:hover{
     margin-top: 10%;
 }
 
+
 .col-link .btn a{
     color: white;
-
 }
 
 .col-link a{
