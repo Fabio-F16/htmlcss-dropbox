@@ -270,8 +270,11 @@ a:hover{
 .text-area .btn a{
     color: gray;
     text-decoration: none;
-    font-size: 0.9rem; 
-     
+    font-size: 0.9rem;     
+}
+
+.text-area .btn a:hover{
+    text-decoration: underline;
 }
 
 .text-area a{
@@ -319,7 +322,7 @@ a:hover{
 
 /* fine colori */
 
-.client-box .float-left{
+.content-box .float-left{
     height: 300px;
 }
 
@@ -345,5 +348,25 @@ a:hover{
     padding-top: 50px;
 }
 
+.banner .text-area{
+    height: 250px;
+}
 
+.banner .text-area h1{
+    font-size: 2rem;
+    color: #61082b;
+    position: relative;
+    top: 85px;  
+}
+
+.banner .text-area .btn{
+    display: inline-block;
+    width: 300px;
+    position: relative;
+    left: 70%;   
+}
+
+.banner .text-area .btn a{
+    color: black;   
+}
 
