@@ -46,6 +46,10 @@ body{
     width: 60%;
 }
 
+.width-70{
+    width: 70%;
+}
+
 .width-80{
     width: 80%;
 }
@@ -370,3 +374,56 @@ a:hover{
     color: black;   
 }
 
+.frequent-questions{
+    margin-bottom: 10%;
+}
+
+.frequent-questions h1{
+    margin-bottom: 5%;
+}
+
+.frequent-questions h4{
+    padding: 3% 0px;
+    border-top: 1px solid black;
+    position: relative;
+    
+}
+
+.frequent-questions:last-child{
+    border-bottom: 1px solid black;
+}
+
+.frequent-questions .fa-angle-down{
+    position: relative;
+    left: 40%;
+}
+
+.frequent-questions p{
+    margin-bottom: 2%;
+    display: none;
+
+}
+
+h4:hover + p{
+    display: block;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    height: 500px;
+}
+
+footer .container{
+    padding-top: 7%;
+}
+
+footer ul li{
+    list-style-type: none;
+    margin-top: 3%;
+}
+
+footer .container:last-child{
+    color: grey;
+    
+}
