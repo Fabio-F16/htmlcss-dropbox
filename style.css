@@ -74,6 +74,43 @@ body{
     text-align: center;
 }
 
+/* colori */
+
+.green{
+    background-color: #a2d39b;
+}
+
+.bordeaux{
+    background-color: #61082b;
+}
+
+.blue{
+    background-color: #0d2481;
+}
+
+.light-blue{
+    background-color: #0093ce;
+}
+
+.light-light-blue{
+    background-color: #b4d0e7;
+}
+
+.red{
+    background-color: #ff1c1c;
+}
+
+.yellow{
+    background-color: #ffd830;
+}
+
+.light-gray{
+    background-color: #f5f5f5;
+}
+
+/* fine colori */
+
+
 header{
     line-height: 50px;
     vertical-align: middle;
@@ -220,6 +257,7 @@ a:hover{
 .col-list{
     margin-top: 20%;
 }
+
 .col-list li{
     list-style-type: none;
     margin-top: 10%;
@@ -239,7 +277,11 @@ a:hover{
 }
 
 .col-large p{
-    margin-top: 15px;
+    margin-top: 4%;
+}
+
+.col-large h4{
+    margin-top: 2%;
 }
 
 .col-large-main{
@@ -288,43 +330,6 @@ a:hover{
 .text-area h2{
     padding-bottom: 30px;
 }
-
-
-/* colori */
-
-.green{
-    background-color: #a2d39b;
-}
-
-.bordeaux{
-    background-color: #61082b;
-}
-
-.blue{
-    background-color: #0d2481;
-}
-
-.light-blue{
-    background-color: #0093ce;
-}
-
-.light-light-blue{
-    background-color: #b4d0e7;
-}
-
-.red{
-    background-color: #ff1c1c;
-}
-
-.yellow{
-    background-color: #ffd830;
-}
-
-.light-gray{
-    background-color: #f5f5f5;
-}
-
-/* fine colori */
 
 .content-box .float-left{
     height: 300px;
@@ -401,7 +406,6 @@ a:hover{
 .frequent-questions p{
     margin-bottom: 2%;
     display: none;
-
 }
 
 h4:hover + p{
@@ -425,5 +429,4 @@ footer ul li{
 
 footer .container:last-child{
     color: grey;
-    
 }
